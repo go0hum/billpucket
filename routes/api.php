@@ -29,4 +29,5 @@ Route::group([
     Route::put('persona', [\App\Http\Controllers\Api\V1\PersonaController::class, 'update'])->name('persona');
     Route::post('user', [\App\Http\Controllers\Api\V1\UserController::class, 'store'])->name('user');
     Route::post('down', [\App\Http\Controllers\Api\V1\UserController::class, 'down'])->name('down');
+    Route::post('cuenta', [\App\Http\Controllers\Api\V1\CuentaController::class, 'store'])->name('cuenta');
 });

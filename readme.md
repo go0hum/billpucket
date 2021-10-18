@@ -78,4 +78,16 @@ Request:
 {
     "id" : 1
 }
+
+URl: http://localhost/api/v1/auth/cuenta
+Type: POST
+HEADER: Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvdjFcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjM0NTYxNTg1LCJleHAiOjE2MzQ1NjUxODUsIm5iZiI6MTYzNDU2MTU4NSwianRpIjoidzB5SkFYNERGUGIwT1pXZCIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.twWm3mBMGZvsxwwceGFesxak7h7BERmu_Mc6pnzXlZY
+Request:
+{
+    "cuenta" : "123456",
+    "producto" : "Ahorro",
+    "saldo" : "300",
+    "nip": "2345",
+    "personas_id": 1
+}
 ```
