@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 - docker up -d
 - php artisan migrate
